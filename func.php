@@ -15,7 +15,7 @@
     {
         try {
             // If it doesn't work, change '3306' to your MySQL port
-            return new PDO('mysql:host=localhost:3306;dbname=pos_lauron', 'root', '');
+            return new PDO('mysql:host=localhost:3306;dbname=pos_gutib', 'root', '');
         } catch (PDOException $exception) {
             echo "Connection Error: ", $exception->getMessage();
         }
